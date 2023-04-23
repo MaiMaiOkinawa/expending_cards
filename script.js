@@ -14,3 +14,23 @@ function removeActiveClasses() {
     panel.classList.remove("active");
   });
 }
+
+// const sounds = ["Train", "Truck"];
+
+// sounds.forEach((sound) => {
+//   // Creates sound buttons
+//   const btn = document.createElement("button");
+//   btn.classList.add("btn");
+//   // Name each buttons of sounds as it loops
+//   btn.innerText = sound;
+
+//   btn.addEventListener("click", () => {
+//     // Adding a fnc pauses songs
+//     stopSongs();
+
+//     // This plays the song
+//     document.getElementById(sound).play();
+//   });
+
+//   document.getElementById("buttons").appendChild(btn);
+// });
